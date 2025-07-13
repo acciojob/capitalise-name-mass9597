@@ -2,8 +2,9 @@
 
 const input = document.getElementById("fname");
 
-function convertToUpperCase{
+function convertToUpperCase(){
 	input.value = input.value.toUpperCase();
+
 }
 
 window.onload = function(){
