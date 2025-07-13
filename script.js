@@ -6,7 +6,11 @@ function convertToUpperCase{
 	input.value = input.value.toUpperCase();
 }
 
-input.addEventListener("blur",convertToUpperCase);
+window.onload = function(){
+	input.addEventListener("blur",convertToUpperCase);
+}
+
+
 
 
 
